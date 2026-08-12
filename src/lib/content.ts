@@ -212,7 +212,7 @@ export const works: WorkItem[] = [
     tag: "Flange",
   },
   {
-    src: "/works/img6.webp",
+    src: "/works/img6.png",
     title: "Housing with internal bosses",
     description:
       "Charcoal-finished circular housing featuring threaded bosses, alignment holes, and a clean central aperture.",
@@ -220,7 +220,7 @@ export const works: WorkItem[] = [
     tag: "Housing",
   },
   {
-    src: "/works/img7.webp",
+    src: "/works/img7.png",
     title: "Concentric-finish disc",
     description:
       "Reflective machined disc with concentric tool marks, counterbored mounts, and micro-drill features.",
