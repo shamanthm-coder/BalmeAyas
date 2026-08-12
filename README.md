@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Balme Ayas
 
-## Getting Started
+Corporate website for **Balme Ayas** — precision engineering and advanced manufacturing for defense, automotive, aerospace, aeronautics, and renewable energy.
 
-First, run the development server:
+## Stack
+
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+
+## Content sources
+
+- Previous website / brochure copy and specs
+- Work photos and brochure PDF in `res/` (served from `public/`)
+
+## Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Local: [http://localhost:3000](http://localhost:3000)
+- Network (phone / other PC on same Wi‑Fi): use the `Network` URL printed in the terminal, e.g. `http://192.168.0.103:3000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Dev is bound to `0.0.0.0` and `allowedDevOrigins` is set so LAN access works. If your PC IP changes, update it in `next.config.ts`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Scripts
 
-## Learn More
+| Command         | Description              |
+| --------------- | ------------------------ |
+| `npm run dev`   | Start development server |
+| `npm run build` | Create production build  |
+| `npm run start` | Run production server    |
+| `npm run lint`  | Run ESLint               |
 
-To learn more about Next.js, take a look at the following resources:
+## Key contacts (site)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Phone: 9741562847
+- Email: sales@balmeayas.in
+- Web: balmeayas.in
+- Brochure: `/docs/balme-ayas-brochure.pdf`
