@@ -213,19 +213,19 @@ export const works: WorkItem[] = [
   },
   {
     src: "/works/img6.png",
-    title: "Housing with internal bosses",
+    title: "Cavity and Mold base",
     description:
-      "Charcoal-finished circular housing featuring threaded bosses, alignment holes, and a clean central aperture.",
+      "Precision-machined mold cavity with multi-level pockets, guide-pin bores, and ejector-pin holes for production tooling.",
     category: "component",
-    tag: "Housing",
+    tag: "Mold",
   },
   {
     src: "/works/img7.png",
-    title: "Concentric-finish disc",
+    title: "Cavity and Mold base",
     description:
-      "Reflective machined disc with concentric tool marks, counterbored mounts, and micro-drill features.",
+      "Large mold base on the shop floor under active machining — complex cavity work with guide features and mounting details.",
     category: "component",
-    tag: "Disc",
+    tag: "Mold",
   },
   {
     src: "/works/img9.jpeg",
