@@ -65,7 +65,7 @@ export function WelcomeScreen({ onExitStart, onComplete }: WelcomeScreenProps) {
           <Logo
             variant="light"
             showWordmark={false}
-            markClassName="h-28 w-28 md:h-36 md:w-36"
+            markClassName="h-44 w-44 sm:h-52 sm:w-52 md:h-64 md:w-64"
           />
         </div>
       </div>
