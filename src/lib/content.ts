@@ -229,7 +229,7 @@ export const works: WorkItem[] = [
   },
   {
     src: "/works/img9.jpeg",
-    title: "Mold base",
+    title: "Mold base and cavity",
     description:
       "Precision mold base with machined cavity, guide-pin bores, and multi-level pocketing prepared for production tooling.",
     category: "component",

@@ -60,27 +60,13 @@ export function WelcomeScreen({ onExitStart, onComplete }: WelcomeScreenProps) {
       <div className="welcome-grid" aria-hidden />
       <div className="welcome-glow" aria-hidden />
 
-      <div className="welcome-content relative z-10 flex flex-col items-center px-6 text-center">
+      <div className="welcome-content relative z-10 flex items-center justify-center">
         <div className="welcome-logo">
           <Logo
             variant="light"
             showWordmark={false}
-            markClassName="h-24 w-24 md:h-28 md:w-28"
+            markClassName="h-28 w-28 md:h-36 md:w-36"
           />
-        </div>
-
-        <p className="welcome-brand mt-8 font-display text-4xl font-extrabold tracking-[0.12em] uppercase sm:text-5xl md:text-6xl">
-          Balme Ayas
-        </p>
-
-        <div className="welcome-line mt-6 h-px w-40 bg-leaf" />
-
-        <p className="welcome-tag mt-5 max-w-md text-sm tracking-[0.18em] text-white/70 uppercase sm:text-base">
-          Precision Engineering
-        </p>
-
-        <div className="welcome-progress mt-10 h-[2px] w-40 overflow-hidden bg-white/15">
-          <span className="welcome-progress-bar block h-full origin-left bg-leaf" />
         </div>
       </div>
     </div>
