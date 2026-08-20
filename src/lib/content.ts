@@ -213,7 +213,7 @@ export const works: WorkItem[] = [
   },
   {
     src: "/works/img6.png",
-    title: "Cavity and Mold base",
+    title: "Mold base and cavity",
     description:
       "Precision-machined mold cavity with multi-level pockets, guide-pin bores, and ejector-pin holes for production tooling.",
     category: "component",
@@ -221,7 +221,7 @@ export const works: WorkItem[] = [
   },
   {
     src: "/works/img7.png",
-    title: "Cavity and Mold base",
+    title: "Mold base and cavity",
     description:
       "Large mold base on the shop floor under active machining — complex cavity work with guide features and mounting details.",
     category: "component",

@@ -60,7 +60,7 @@ export function WelcomeScreen({ onExitStart, onComplete }: WelcomeScreenProps) {
       <div className="welcome-grid" aria-hidden />
       <div className="welcome-glow" aria-hidden />
 
-      <div className="welcome-content relative z-10 flex items-center justify-center">
+      <div className="welcome-content relative z-10 flex flex-col items-center justify-center gap-5 sm:gap-6">
         <div className="welcome-logo">
           <Logo
             variant="light"
@@ -68,6 +68,9 @@ export function WelcomeScreen({ onExitStart, onComplete }: WelcomeScreenProps) {
             markClassName="h-44 w-44 sm:h-52 sm:w-52 md:h-64 md:w-64"
           />
         </div>
+        <p className="welcome-brand font-display text-2xl font-bold uppercase text-white sm:text-3xl md:text-4xl">
+          Balmeayas
+        </p>
       </div>
     </div>
   );
