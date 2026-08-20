@@ -68,8 +68,8 @@ export function WelcomeScreen({ onExitStart, onComplete }: WelcomeScreenProps) {
             markClassName="h-44 w-44 sm:h-52 sm:w-52 md:h-64 md:w-64"
           />
         </div>
-        <p className="welcome-brand font-display text-2xl font-bold uppercase text-white sm:text-3xl md:text-4xl">
-          Balmeayas
+        <p className="welcome-brand font-display text-2xl font-bold text-white sm:text-3xl md:text-4xl">
+          Balme Ayas
         </p>
       </div>
     </div>
